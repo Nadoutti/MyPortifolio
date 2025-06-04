@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <div className="
       w-screen
-      h-screen
       flex
       justify-center
       items-center
@@ -15,10 +14,9 @@ export default function Home() {
       <Socials/>
       <container className="
         w-1/2
-        h-auto
         bg-[#141414]
         p-8
-        mt-40
+        mt-20
         rounded-md">
         {/* Div para mostrar as minhas habilidades como programador */}
         <section id="home">
@@ -174,6 +172,87 @@ export default function Home() {
           </div>
         </section>
 
+      {/* Essa parte vai servir para o footer do meu portifolio */}
+
+        <div className="
+          mt-10">
+          <h1 className="
+            font-bold 
+            text-[28px] 
+            ">Contact Me</h1>
+
+          <div>
+            <p className="
+              font-bold
+              mt-6
+              text-[18px]">Email</p>
+            <div className="
+              flex
+              flex-row
+              ">
+              <img src="/envelope.png" width="35" className="
+                mt-6"/>
+              <p className="
+                mt-7
+                ml-6
+                font-bold">nadottipedro5@gmail.com</p>
+            </div>
+            <div>
+              <p className="
+                font-bold
+                mt-6
+                text-[18px]">Socials</p>
+              <div className="
+                flex
+                flex-row
+                ">
+                <img src="/github.png" width="35" className="
+                  mt-6
+                  w-10
+                  h-10"/>
+                <a href="https://github.com/Nadoutti" className="
+                  mt-7
+                  ml-6
+                  font-bold
+                  bg-white
+                  text-black
+                  rounded-full
+                  pt-2
+                  pl-4
+                  w-30
+                  h-10
+                  transition-shadow
+                  duration-400
+                  hover:shadow-[0_0_15px_white]">click me!</a>
+              </div>
+            <div className="
+                flex
+                flex-row
+                ">
+                <img src="/linkedin.png" width="35" className="
+                  mt-6
+                  w-10
+                  h-10"/>
+                <a href="https://www.linkedin.com/in/pedro-nadotti/" className="
+                  mt-7
+                  ml-6
+                  font-bold
+                  bg-white
+                  text-black
+                  rounded-full
+                  pt-2
+                  pl-4
+                  w-30
+                  h-10
+                  transition-shadow
+                  duration-400
+                  hover:shadow-[0_0_15px_white]">click me!</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
 
       </container>
     </div>
