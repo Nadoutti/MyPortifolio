@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Sidebar from "../components/sidebar.js"
+import Socials from "../components/socials.js"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       items-center
       font-mono">
       <Sidebar/>
+      <Socials/>
       <container className="
         w-1/2
         h-auto
