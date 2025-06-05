@@ -125,22 +125,25 @@ export default function Home() {
               justify-around">
 
               <a>
-                <img src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
+                <div src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
                   rounded-lg
                   w-[250px]
-                  h-[150px]"/>
+                  h-[150px]
+                  bg-[#292929]"></div>
               </a>
               <a>
-                <img src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
+                <div src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
                   rounded-lg
                   w-[250px]
-                  h-[150px]"/>
+                  h-[150px]
+                  bg-[#292929]"></div>
               </a>
               <a>
-                <img src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
+                <div src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
                   rounded-lg
                   w-[250px]
-                  h-[150px]"/>
+                  h-[150px]
+                  bg-[#292929]"></div>
               </a>
             </div>
 
@@ -150,22 +153,25 @@ export default function Home() {
               justify-around
               mt-5">
               <a>
-                <img src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
+                <div src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
                   rounded-lg
                   w-[250px]
-                  h-[150px]"/>
+                  h-[150px]
+                  bg-[#292929]"></div>
               </a>
               <a>
-                <img src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
+                <div src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
                   rounded-lg
                   w-[250px]
-                  h-[150px]"/>
+                  h-[150px]
+                  bg-[#292929]"></div>
               </a>
               <a>
-                <img src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
+                <div src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
                   rounded-lg
                   w-[250px]
-                  h-[150px]"/>
+                  h-[150px]
+                  bg-[#292929]"></div>
               </a>
 
             </div>
