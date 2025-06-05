@@ -34,7 +34,7 @@ export default function Home() {
               flex-row
               gap-[2vw]">
               <div>
-                <img src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
+                <Image src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
                   rounded-lg"/>
               </div>
               <div className="
@@ -67,29 +67,29 @@ export default function Home() {
                 pt-5
                 ">
                 <p className="text-right mb-5 flex flex-row e">
-                  <img width="25" height="25" src="whitecheckempty.png" className="
+                  <Image width="25" height="25" src="whitecheckempty.png" className="
                     w-8
                     h-8
                     mr-4 ">
-                  </img>
+                  </Image>
                   <span className="font-[900]">
                     Fast 
                   </span>
                   Applications
                 </p>
                 <p className="flex mb-5 justify-end">
-                  Fair Price<img width="25" height="25" src="whitecheckempty.png" className="
+                  Fair Price<Image width="25" height="25" src="whitecheckempty.png" className="
                     w-8
                     h-8
                     ml-4
                     ">
-                  </img></p>
+                  </Image></p>
                 <p className="text-right mb-5 flex flex-row">
-                  <img width="25" height="25" src="whitecheckempty.png" className="
+                  <Image width="25" height="25" src="whitecheckempty.png" className="
                     w-8
                     h-8
                     mr-4 ">
-                  </img>Quality guaranteed</p>
+                  </Image>Quality guaranteed</p>
               </div>
             </div>
           </div>
@@ -103,12 +103,12 @@ export default function Home() {
               text-[28px]
               font-bold
               mb-10">About Me</h1>
-            <p> I'm a developer based in Brazil currently in my third
+            <p> I&apos;m a developer based in Brazil currently in my third
               semester of Computer Science.
               I have experience with Next.js, FastAPI,
               data structuring and analysis,
               which allows me to build fast and scalable web and mobile applications.
-              I'm currently looking for freelance opportunities.
+              I&apos;m currently looking for freelance opportunities.
               I can create landing pages, custom social media bio link pages,
               portfolios, sales dashboards, and much more.</p>
           </div> 
@@ -197,7 +197,7 @@ export default function Home() {
               flex
               flex-row
               ">
-              <img src="/envelope.png" width="35" className="
+              <Image src="/envelope.png" width="35" className="
                 mt-6"/>
               <p className="
                 mt-7
@@ -213,7 +213,7 @@ export default function Home() {
                 flex
                 flex-row
                 ">
-                <img src="/github.png" width="35" className="
+                <Image src="/github.png" width="35" className="
                   mt-6
                   w-10
                   h-10"/>
@@ -236,7 +236,7 @@ export default function Home() {
                 flex
                 flex-row
                 ">
-                <img src="/linkedin.png" width="35" className="
+                <Image src="/linkedin.png" width="35" className="
                   mt-6
                   w-10
                   h-10"/>
