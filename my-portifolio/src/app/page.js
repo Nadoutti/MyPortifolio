@@ -17,6 +17,7 @@ export default function Home() {
         bg-[#141414]
         p-8
         mt-20
+        mb-10
         rounded-md">
         {/* Div para mostrar as minhas habilidades como programador */}
         <section id="home">
