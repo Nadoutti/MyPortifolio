@@ -8,8 +8,8 @@ const Socials = () => {
       flex
       flex-row
       fixed
-      top-2
-      right-3
+      lg:top-2
+      lg:right-3
       gap-2">
       <a href="https://github.com/Nadoutti">
         <img src="/github.png" width="30"/>

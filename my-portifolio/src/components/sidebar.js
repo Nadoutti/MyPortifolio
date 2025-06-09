@@ -5,18 +5,25 @@ const Sidebar = () => {
   return (
     <aside className="
       fixed 
-      top-30 
-      left-60 
-      h-70 
-      w-40 
-      bg-[#292929]
+      top-2
+      left-6
+      w-11/12
+      h-auto
+      py-6
       rounded-md
-      text-white 
       flex 
-      flex-col 
+      flex-row 
       items-center 
-      justify-center 
-      space-y-6">
+      justify-around 
+      bg-[#292929]
+      text-white 
+      lg:w-40
+      lg:flex-col
+      lg:h-70 
+      lg:top-30 
+      lg:left-60 
+      lg:flex-col
+      lg:space-y-6">
       {sections.map((sec) => (
         <a
           key={sec}

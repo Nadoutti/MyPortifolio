@@ -13,11 +13,16 @@ export default function Home() {
       <Sidebar/>
       <Socials/>
       <container className="
-        w-1/2
+        w-11/12
+        sm:w-4/5
+        md:w-2/3
+        lg:w-1/2
         bg-[#141414]
-        p-8
-        mt-20
-        mb-10
+        p-4
+        sm:p-6
+        md:p-8
+        mt-25
+        mb-6
         rounded-md">
         {/* Div para mostrar as minhas habilidades como programador */}
         <section id="home">
@@ -66,8 +71,8 @@ export default function Home() {
                 pl-5
                 pt-5
                 ">
-                <p className="text-right mb-5 flex flex-row e">
-                  <Image width="25" height="25" src="whitecheckempty.png" className="
+                <p className="text-left! mb-5 flex flex-row e">
+                  <Image width="25" height="25" src="/whitecheckempty.png" alt="Check" className="
                     w-8
                     h-8
                     mr-4 ">
@@ -77,15 +82,15 @@ export default function Home() {
                   </span>
                   Applications
                 </p>
-                <p className="flex mb-5 justify-end">
-                  Fair Price<Image width="25" height="25" src="whitecheckempty.png" className="
+                <p className="flex mb-5 text-left">
+                  Fair Price<Image width="25" height="25" src="/whitecheckempty.png" alt="Check" className="
                     w-8
                     h-8
                     ml-4
                     ">
                   </Image></p>
-                <p className="text-right mb-5 flex flex-row">
-                  <Image width="25" height="25" src="whitecheckempty.png" className="
+                <p className="text-left mb-5 flex flex-row">
+                  <Image width="25" height="25" src="/whitecheckempty.png" alt="Check" className="
                     w-8
                     h-8
                     mr-4 ">
@@ -117,149 +122,134 @@ export default function Home() {
 
 
         {/* Div para mostrar os projetos que eu ja fiz */}
+
         <section id="projects">
           <div className="mt-10">
-            <h1 className="text-[28px] font-bold mb-10">Latest Projects</h1>
-            <div className="
-              flex
-              flex-row
-              justify-around">
-
-              <a>
-                <div src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
-                  rounded-lg
-                  w-[250px]
-                  h-[150px]
-                  bg-[#292929]"></div>
-              </a>
-              <a>
-                <div src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
-                  rounded-lg
-                  w-[250px]
-                  h-[150px]
-                  bg-[#292929]"></div>
-              </a>
-              <a>
-                <div src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
-                  rounded-lg
-                  w-[250px]
-                  h-[150px]
-                  bg-[#292929]"></div>
-              </a>
-            </div>
+            <h1 className="text-[28px] font-bold mb-10 text-center">Latest Projects</h1>
 
             <div className="
               flex
-              flex-row
-              justify-around
-              mt-5">
-              <a>
-                <div src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
-                  rounded-lg
-                  w-[250px]
-                  h-[150px]
-                  bg-[#292929]"></div>
+              flex-col
+              items-center      /* Centraliza os filhos verticalmente */
+              gap-4
+              lg:flex-row
+              lg:justify-around
+              ">
+              <a href="#" className="w-11/12">
+                <img
+                  src="/guava.png"
+                  width="35"
+                  height="35"
+                  alt="A foto não carregou"
+                  className="rounded-lg w-full  h-[200px] bg-[#292929]"
+                />
               </a>
-              <a>
-                <div src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
-                  rounded-lg
-                  w-[250px]
-                  h-[150px]
-                  bg-[#292929]"></div>
+              <a href="#" className="w-11/12">
+                <Image
+                  width="35"
+                  height="35"
+                  alt="A foto não carregou"
+                  src="/minha_foto.jpg"
+                  className="rounded-lg w-full h-[200px] bg-[#292929]"
+                />
               </a>
-              <a>
-                <div src="/minha_foto.jpg" alt="A foto nao carregou" width="150" height="150" className="
-                  rounded-lg
-                  w-[250px]
-                  h-[150px]
-                  bg-[#292929]"></div>
+              <a href="#" className="w-11/12">
+                <img
+                  width="35"
+                  height="35"
+                  src="/minha_foto.jpg"
+                  alt="A foto não carregou"
+                  className="rounded-lg w-full  h-[200px] bg-[#292929]"
+                />
               </a>
-
             </div>
           </div>
         </section>
 
-      {/* Essa parte vai servir para o footer do meu portifolio */}
 
-        <div className="
-          mt-10">
-          <h1 className="
-            font-bold 
-            text-[28px] 
-            ">Contact Me</h1>
+        {/* Essa parte vai servir para o footer do meu portifolio */}
+        <section id="contact">
+          <div className="
+            mt-10">
+            <h1 className="
+              font-bold 
+              text-[28px] 
+              ">Contact Me</h1>
 
-          <div>
-            <p className="
-              font-bold
-              mt-6
-              text-[18px]">Email</p>
-            <div className="
-              flex
-              flex-row
-              ">
-              <Image src="/envelope.png" width="35" className="
-                mt-6"/>
-              <p className="
-                mt-7
-                ml-6
-                font-bold">nadottipedro5@gmail.com</p>
-            </div>
             <div>
               <p className="
                 font-bold
                 mt-6
-                text-[18px]">Socials</p>
+                text-[18px]">Email</p>
               <div className="
                 flex
                 flex-row
                 ">
-                <Image src="/github.png" width="35" className="
-                  mt-6
-                  w-10
-                  h-10"/>
-                <a href="https://github.com/Nadoutti" className="
+                <Image src="/envelope.png" width="35" height="35" alt="Envelope" className="
+                  mt-6"/>
+                <p className="
                   mt-7
                   ml-6
-                  font-bold
-                  bg-white
-                  text-black
-                  rounded-full
-                  pt-2
-                  pl-4
-                  w-30
-                  h-10
-                  transition-shadow
-                  duration-400
-                  hover:shadow-[0_0_15px_white]">click me!</a>
+                  font-bold">nadottipedro5@gmail.com</p>
               </div>
-            <div className="
-                flex
-                flex-row
-                ">
-                <Image src="/linkedin.png" width="35" className="
+              <div>
+                <p className="
+                  font-bold
                   mt-6
-                  w-10
-                  h-10"/>
-                <a href="https://www.linkedin.com/in/pedro-nadotti/" className="
-                  mt-7
-                  ml-6
-                  font-bold
-                  bg-white
-                  text-black
-                  rounded-full
-                  pt-2
-                  pl-4
-                  w-30
-                  h-10
-                  transition-shadow
-                  duration-400
-                  hover:shadow-[0_0_15px_white]">click me!</a>
+                  text-[18px]">Socials</p>
+                <div className="
+                  flex
+                  flex-row
+                  ">
+                  <Image src="/github.png" width="35" height="35" alt="Github" className="
+                    mt-6
+                    w-10
+                    h-10"/>
+                  <a href="https://github.com/Nadoutti" className="
+                    mt-7
+                    ml-6
+                    font-bold
+                    bg-white
+                    text-black
+                    rounded-full
+                    pt-2
+                    pl-4
+                    w-30
+                    h-10
+                    transition-shadow
+                    duration-400
+                    hover:shadow-[0_0_15px_white]">click me!</a>
+                </div>
+                <div className="
+                  flex
+                  flex-row
+                  ">
+                  <Image src="/linkedin.png" width="35" height="35" alt="Linkedin" className="
+                    mt-6
+                    w-10
+                    h-10"/>
+                  <a href="https://www.linkedin.com/in/pedro-nadotti/" className="
+                    mt-7
+                    ml-6
+                    font-bold
+                    bg-white
+                    text-black
+                    rounded-full
+                    pt-2
+                    pl-4
+                    w-30
+                    h-10
+                    transition-shadow
+                    duration-400
+                    hover:shadow-[0_0_15px_white]">click me!</a>
+                </div>
               </div>
+
             </div>
 
           </div>
+        </section>
 
-        </div>
 
       </container>
     </div>
