@@ -14,7 +14,7 @@ const Sidebar = () => {
       flex-row 
       items-center 
       justify-around 
-      bg-[#292929]
+      bg-[linear-gradient(154deg,_rgba(41,41,41,1)_0%,_rgba(15,15,15,0.8)_100%)]
       text-white 
       lg:w-40
       lg:flex-col

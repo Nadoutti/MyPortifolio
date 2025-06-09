@@ -145,25 +145,21 @@ export default function Home() {
                   width="35"
                   height="35"
                   alt="A foto não carregou"
-                  className="rounded-lg w-full  h-[200px] bg-[#292929]"
-                />
-              </a>
-              <a href="#" className="w-11/12">
-                <Image
-                  width="35"
-                  height="35"
-                  alt="A foto não carregou"
-                  src="/minha_foto.jpg"
-                  className="rounded-lg w-full h-[200px] bg-[#292929]"
+                  className="rounded-lg w-full object-cover  h-[200px] bg-[#292929]"
                 />
               </a>
               <a href="#" className="w-11/12">
                 <img
-                  width="35"
+                  width="45"
                   height="35"
-                  src="/minha_foto.jpg"
                   alt="A foto não carregou"
-                  className="rounded-lg w-full  h-[200px] bg-[#292929]"
+                  src="/predictflow.png"
+                  className="rounded-lg object-cover w-full h-[200px] bg-[#292929]"
+                />
+              </a>
+              <a href="#" className="w-11/12">
+                <div
+                  className="rounded-lg w-full  h-[200px] bg-[linear-gradient(154deg,_rgba(41,41,41,1)_0%,_rgba(0,0,0,1)_100%)]"
                 />
               </a>
             </div>
