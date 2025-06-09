@@ -32,8 +32,10 @@ export default function Home() {
             md:flex-row
             items-center
             justify-center
-            divide-y-1 divide-solid
-            md:divide-y-0 divide-x-1 divide-solid">
+            divide-y divide-solid md:divide-y-0
+            md:divide-x md:divide-solid
+
+            ">
             <div className="
               w-full
               md:w-1/2
