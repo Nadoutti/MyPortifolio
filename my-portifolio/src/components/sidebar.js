@@ -6,7 +6,6 @@ const Sidebar = () => {
     <aside className="
       fixed 
       top-2
-      left-6
       w-11/12
       h-auto
       py-6

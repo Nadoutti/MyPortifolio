@@ -28,12 +28,13 @@ export default function Home() {
         <section id="home">
           <div className="
             flex
-            flex-row
+            flex-col
             items-center
             justify-center
-            divide-x-1 divide-solid">
+            divide-y-1 divide-solid">
             <div className="
-              w-1/2
+              w-full
+              md:w-1/2
               h-50
               flex
               flex-row
@@ -56,8 +57,8 @@ export default function Home() {
             </div>
 
             <div className="
-              text-right
-              w-1/2
+              w-full
+              md:w-1/2
               h-50
               flex
               flex-col
