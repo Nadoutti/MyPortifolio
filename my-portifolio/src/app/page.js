@@ -29,9 +29,11 @@ export default function Home() {
           <div className="
             flex
             flex-col
+            md:flex-row
             items-center
             justify-center
-            divide-y-1 divide-solid">
+            divide-y-1 divide-solid
+            md:divide-y-0 divide-x-1 divide-solid">
             <div className="
               w-full
               md:w-1/2
@@ -59,6 +61,7 @@ export default function Home() {
             <div className="
               w-full
               md:w-1/2
+              md:ml-4
               h-50
               flex
               flex-col
