@@ -69,7 +69,7 @@ export default function Home() {
               flex-col
               justify-between">
               <div>
-                <h2 className="font-bold text-[30px]">Full Stack</h2>
+                <h2 className="font-bold text-[30px]">What I deliver</h2>
               </div>
               <div className="
                 text-[20px]
@@ -149,6 +149,8 @@ export default function Home() {
                   alt="A foto não carregou"
                   className="rounded-lg w-full object-cover  h-[200px] bg-[#292929]"
                 />
+                <p className="
+                  text-center">Guava(Payment solution with blockchain)</p>
               </a>
               <a href="#" className="w-11/12">
                 <img
@@ -158,11 +160,15 @@ export default function Home() {
                   src="/predictflow.png"
                   className="rounded-lg object-cover w-full h-[200px] bg-[#292929]"
                 />
+                <p className="
+                  text-center">Predictflow(PO management system and analysis)</p>
               </a>
               <a href="#" className="w-11/12">
                 <div
                   className="rounded-lg w-full  h-[200px] bg-[linear-gradient(154deg,_rgba(41,41,41,1)_0%,_rgba(0,0,0,1)_100%)]"
                 />
+                <p className="
+                  text-center">Salary Prediction AI(Project yet to come)</p>
               </a>
             </div>
           </div>
