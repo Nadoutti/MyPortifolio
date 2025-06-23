@@ -9,7 +9,9 @@ export default function Home() {
       flex
       justify-center
       items-center
-      font-mono">
+      font-mono
+      text-sky-50
+      bg-[#0d0d0d]">
       <Sidebar/>
       <Socials/>
       <container className="
