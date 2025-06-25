@@ -143,7 +143,7 @@ export default function Home() {
               lg:flex-row
               lg:justify-around
               ">
-              <a href="#" className="w-11/12">
+              <a href="https://github.com/Nadoutti/Guava-front-fork" className="w-11/12">
                 <img
                   src="/guava.png"
                   width="35"
@@ -154,7 +154,7 @@ export default function Home() {
                 <p className="
                   text-center">Guava(Payment solution with blockchain)</p>
               </a>
-              <a href="#" className="w-11/12">
+              <a href="https://github.com/Nadoutti/frontend-triunfantes" className="w-11/12">
                 <img
                   width="45"
                   height="35"
@@ -165,12 +165,16 @@ export default function Home() {
                 <p className="
                   text-center">Predictflow(PO management system and analysis)</p>
               </a>
-              <a href="#" className="w-11/12">
-                <div
-                  className="rounded-lg w-full  h-[200px] bg-[linear-gradient(154deg,_rgba(41,41,41,1)_0%,_rgba(0,0,0,1)_100%)]"
+              <a href="https://github.com/Nadoutti/Salary-Prediction" className="w-11/12">
+                <img
+                  width="45"
+                  height="35"
+                  alt="A foto não carregou"
+                  src="/salary prediction project.png"
+                  className="rounded-lg object-cover w-full h-[200px] bg-[#292929]"
                 />
                 <p className="
-                  text-center">Salary Prediction AI(Project yet to come)</p>
+                  text-center">Salary Prediction project powered with regression AI</p>
               </a>
             </div>
           </div>
