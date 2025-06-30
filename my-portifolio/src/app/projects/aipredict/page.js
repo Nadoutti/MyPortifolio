@@ -6,7 +6,6 @@ import Footer from "../../../components/footer.js";
 export default function GuavaPage() {
   return (
     <>
-      <SideProjects/>
 
       <div>
 
