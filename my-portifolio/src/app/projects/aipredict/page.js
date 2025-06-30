@@ -88,7 +88,7 @@ export default function GuavaPage() {
             mt-6
             w-10
             h-10"/>
-          <a href="https://github.com/Nadoutti/Guava-front-fork" className="
+          <a href="https://github.com/Nadoutti/Salary-Prediction" className="
             mt-7
             ml-6
             font-bold
