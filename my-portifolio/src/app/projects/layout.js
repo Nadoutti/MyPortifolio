@@ -1,3 +1,4 @@
+import SideProjects from "../../components/sideProjects.js"
 
 export default function ProjectsLayout({ children }) {
   return (
@@ -13,6 +14,7 @@ export default function ProjectsLayout({ children }) {
         min-h-screen
       "
     >
+      <SideProjects/>
       <div
         className="
           w-11/12

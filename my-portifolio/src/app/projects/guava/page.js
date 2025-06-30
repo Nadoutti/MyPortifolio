@@ -1,12 +1,10 @@
 import Image from "next/image";
 import Footer from "../../../components/footer.js";
-import SideProjects from "../../../components/sideProjects.js";
 
 
 export default function GuavaPage() {
   return (
     <>
-      <SideProjects/>
 
       <div>
 
