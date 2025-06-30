@@ -8,7 +8,7 @@ export default function PredictflowPage() {
 
       <div>
 
-        <img src="/predictflow.png" className="
+        <img src="/predictflow.png" alt="Predict Flow page" className="
           rounded-md"/>
 
         <h1 className="

@@ -9,7 +9,7 @@ export default function GuavaPage() {
 
       <div>
 
-        <img src="/salary prediction project.png" className="
+        <img src="/salary prediction project.png" alt="Ai predict image" className="
           rounded-md"/>
 
         <h1 className="

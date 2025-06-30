@@ -8,7 +8,7 @@ export default function GuavaPage() {
 
       <div>
 
-        <img src="/guava.png" className="
+        <img src="/guava.png" alt="Guava image" className="
           rounded-md"/>
 
         <h1 className="
