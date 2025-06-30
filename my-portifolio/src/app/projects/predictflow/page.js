@@ -18,7 +18,7 @@ export default function PredictflowPage() {
           font-bold 
           mt-4
           w-full
-          text-center">The Guava Project</h1>
+          text-center">Predict Flow</h1>
 
         <h2 className="
           mt-10
