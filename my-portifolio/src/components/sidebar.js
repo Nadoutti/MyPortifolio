@@ -21,6 +21,8 @@ const Sidebar = () => {
       lg:h-70 
       lg:top-30 
       lg:left-60 
+      md:top-20
+      md:left-40
       lg:flex-col
       lg:space-y-6">
       {sections.map((sec) => (

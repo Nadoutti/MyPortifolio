@@ -18,6 +18,8 @@ const SideProjects = () => {
       lg:w-40
       lg:flex-col
       lg:h-70 
+      md:top-20
+      md:left-40
       lg:top-30 
       lg:left-60 
       lg:flex-col

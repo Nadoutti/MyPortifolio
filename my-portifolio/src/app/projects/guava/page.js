@@ -82,7 +82,7 @@ export default function GuavaPage() {
             mt-6
             w-10
             h-10"/>
-          <a href="https://github.com/Nadoutti" className="
+          <a href="https://github.com/Nadoutti/Guava-front-fork" className="
             mt-7
             ml-6
             font-bold
@@ -96,7 +96,31 @@ export default function GuavaPage() {
             h-10
             transition-shadow
             duration-400
-            hover:shadow-[0_0_15px_white]">Project repository</a>
+            hover:shadow-[0_0_15px_white]">Frontend repository</a>
+        </div>
+        <div className="
+          flex
+          flex-row
+          ">
+          <Image src="/github.png" width="35" height="35" alt="Github" className="
+            mt-6
+            w-10
+            h-10"/>
+          <a href="https://github.com/Nadoutti/Guava-back-fork" className="
+            mt-7
+            ml-6
+            font-bold
+            bg-white
+            text-black
+            rounded-full
+            pt-2
+            pl-4
+            pr-4
+            w-auto
+            h-10
+            transition-shadow
+            duration-400
+            hover:shadow-[0_0_15px_white]">Backend repository</a>
         </div>
         <Footer />
       </div>

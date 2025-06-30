@@ -144,7 +144,7 @@ export default function Home() {
               lg:flex-row
               lg:justify-around
               ">
-              <a href="https://github.com/Nadoutti/Guava-front-fork" className="w-11/12">
+              <a href="/projects/guava" className="w-11/12">
                 <img
                   src="/guava.png"
                   width="35"
@@ -155,7 +155,7 @@ export default function Home() {
                 <p className="
                   text-center">Guava Project</p>
               </a>
-              <a href="https://github.com/Nadoutti/frontend-triunfantes" className="w-11/12">
+              <a href="/projects/predictflow" className="w-11/12">
                 <img
                   width="45"
                   height="35"
@@ -166,7 +166,7 @@ export default function Home() {
                 <p className="
                   text-center">Predictflow</p>
               </a>
-              <a href="https://github.com/Nadoutti/Salary-Prediction" className="w-11/12">
+              <a href="/projects/aipredict" className="w-11/12">
                 <img
                   width="45"
                   height="35"

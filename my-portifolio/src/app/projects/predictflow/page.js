@@ -31,16 +31,18 @@ export default function PredictflowPage() {
           font-bold">Stack</h2>
         <p className=" 
           text-left
-          mt-4">Flask · React · Solidity · Forge · Anvil</p>
+          mt-4">FastAPI · Next.js · OpenAI API</p>
         <h2 className="
           mt-10
           text-[1.2rem]
           font-bold">Description</h2>
         <p className=" 
           text-left
-          mt-4">Guava is an innovative platform designed to bring greater reliability,
-          flexibility, and security to the freelance programming market by
-          leveraging blockchain technology to guarantee payments and track project progress.</p>
+          mt-4">Predict Flow is an internal application built for a confidential technology company
+          to streamline the product purchasing workflow. The platform allows employees to track product 
+          stages, forecast the arrival of new items,
+          view responsible teams and individuals, and monitor the overall 
+          status of each product in the pipeline.</p>
 
         <h2 className="
           mt-10
@@ -48,8 +50,9 @@ export default function PredictflowPage() {
           font-bold">Project Goal</h2>
         <p className=" 
           text-left
-          mt-4">Create a safer, more transparent environment for both freelancers and clients,
-          using smart contracts to ensure fair deliveries and payments.</p>
+          mt-4">Provide a clear, real-time overview of the product
+          acquisition and delivery process, improving organization and predictability 
+          across teams.</p>
 
 
         <h2 className="
@@ -58,8 +61,9 @@ export default function PredictflowPage() {
           font-bold">My Contributions</h2>
         <p className=" 
           text-left
-          mt-4">  - Built the entire frontend interface using React.<br/>
-          -  Developed the backend communication layer between clients and freelancers in Flask.</p>
+          mt-4">-  Developed all backend CRUD operations using FastAPI.<br/>
+                -  Helped implement user authentication.<br/>
+                -  Contributed to various frontend interface components using Next.js.</p>
 
         <h2 className="
           mt-10
@@ -67,8 +71,7 @@ export default function PredictflowPage() {
           font-bold">Challenges</h2>
         <p className=" 
           text-left
-          mt-4">  The primary challenge was architecting smart contracts capable of monitoring project
-          progress and automatically triggering payments, while maintaining trust and transparency for all parties.</p>
+          mt-4">The main challenge was understanding and structuring the company data originated from their database.</p>
 
         <h2 className="
           mt-10
@@ -82,7 +85,7 @@ export default function PredictflowPage() {
             mt-6
             w-10
             h-10"/>
-          <a href="https://github.com/Nadoutti" className="
+          <a href="https://github.com/Nadoutti/frontend-triunfantes" className="
             mt-7
             ml-6
             font-bold
@@ -96,7 +99,31 @@ export default function PredictflowPage() {
             h-10
             transition-shadow
             duration-400
-            hover:shadow-[0_0_15px_white]">Project repository</a>
+            hover:shadow-[0_0_15px_white]">Frontend repository</a>
+        </div>
+        <div className="
+          flex
+          flex-row
+          ">
+          <Image src="/github.png" width="35" height="35" alt="Github" className="
+            mt-6
+            w-10
+            h-10"/>
+          <a href="https://github.com/Nadoutti/backend-triunfantes-fork" className="
+            mt-7
+            ml-6
+            font-bold
+            bg-white
+            text-black
+            rounded-full
+            pt-2
+            pl-4
+            pr-4
+            w-auto
+            h-10
+            transition-shadow
+            duration-400
+            hover:shadow-[0_0_15px_white]">Backend repository</a>
         </div>
         <Footer />
       </div>
