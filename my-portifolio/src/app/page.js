@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Sidebar from "../components/sidebar.js"
+import Footer from "../components/footer.js"
 import Socials from "../components/socials.js"
 
 export default function Home() {
@@ -152,7 +153,7 @@ export default function Home() {
                   className="rounded-lg w-full object-cover  h-[200px] bg-[#292929]"
                 />
                 <p className="
-                  text-center">Guava(Payment solution with blockchain)</p>
+                  text-center">Guava Project</p>
               </a>
               <a href="https://github.com/Nadoutti/frontend-triunfantes" className="w-11/12">
                 <img
@@ -163,7 +164,7 @@ export default function Home() {
                   className="rounded-lg object-cover w-full h-[200px] bg-[#292929]"
                 />
                 <p className="
-                  text-center">Predictflow(PO management system and analysis)</p>
+                  text-center">Predictflow</p>
               </a>
               <a href="https://github.com/Nadoutti/Salary-Prediction" className="w-11/12">
                 <img
@@ -174,7 +175,7 @@ export default function Home() {
                   className="rounded-lg object-cover w-full h-[200px] bg-[#292929]"
                 />
                 <p className="
-                  text-center">Salary Prediction project powered with regression AI</p>
+                  text-center">Salary Prediction</p>
               </a>
             </div>
           </div>
@@ -183,85 +184,7 @@ export default function Home() {
 
         {/* Essa parte vai servir para o footer do meu portifolio */}
         <section id="contact">
-          <div className="
-            mt-10">
-            <h1 className="
-              font-bold 
-              text-[28px] 
-              ">Contact Me</h1>
-
-            <div>
-              <p className="
-                font-bold
-                mt-6
-                text-[18px]">Email</p>
-              <div className="
-                flex
-                flex-row
-                ">
-                <Image src="/envelope.png" width="35" height="35" alt="Envelope" className="
-                  mt-6"/>
-                <p className="
-                  mt-7
-                  ml-6
-                  font-bold">nadottipedro5@gmail.com</p>
-              </div>
-              <div>
-                <p className="
-                  font-bold
-                  mt-6
-                  text-[18px]">Socials</p>
-                <div className="
-                  flex
-                  flex-row
-                  ">
-                  <Image src="/github.png" width="35" height="35" alt="Github" className="
-                    mt-6
-                    w-10
-                    h-10"/>
-                  <a href="https://github.com/Nadoutti" className="
-                    mt-7
-                    ml-6
-                    font-bold
-                    bg-white
-                    text-black
-                    rounded-full
-                    pt-2
-                    pl-4
-                    w-30
-                    h-10
-                    transition-shadow
-                    duration-400
-                    hover:shadow-[0_0_15px_white]">click me!</a>
-                </div>
-                <div className="
-                  flex
-                  flex-row
-                  ">
-                  <Image src="/linkedin.png" width="35" height="35" alt="Linkedin" className="
-                    mt-6
-                    w-10
-                    h-10"/>
-                  <a href="https://www.linkedin.com/in/pedro-nadotti/" className="
-                    mt-7
-                    ml-6
-                    font-bold
-                    bg-white
-                    text-black
-                    rounded-full
-                    pt-2
-                    pl-4
-                    w-30
-                    h-10
-                    transition-shadow
-                    duration-400
-                    hover:shadow-[0_0_15px_white]">click me!</a>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
+          <Footer/>
         </section>
 
 
