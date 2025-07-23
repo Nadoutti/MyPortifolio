@@ -181,6 +181,15 @@ export default function Home() {
           </div>
         </section>
 
+        <section id="experience">
+          <div className="mt-10">
+            <h1 className="text-[28px] font-bold mb-10 text-center">Academic Experience</h1>
+            <ul className="list-disc pl-5">
+              <li className="text-left text-wrap">Currently engaged in the third semester of a Computer Science degree at <a className="hover:text-cyan-400 underline" href="https://www.insper.edu.br/en/home">Insper</a></li>
+            </ul>
+          </div>
+        </section>
+
 
         {/* Essa parte vai servir para o footer do meu portifolio */}
         <section id="contact">
